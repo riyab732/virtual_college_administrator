@@ -36,7 +36,7 @@ if ($_POST) {
     '" . mysqli_real_escape_string($link, $_POST['key4']) . "',
     '" . mysqli_real_escape_string($link, $_POST['ans']) . "')";
     if(mysqli_query($link,$query)){
-        header("Location: /se_project/admin-questions.php");
+        header("Location: /virtual_college_administrator/admin-questions.php");
     }
 }
 ?>

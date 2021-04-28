@@ -47,7 +47,7 @@ if (mysqli_connect_error()) {
         <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search">
         <ul class="navbar-nav px-3">
             <li class="nav-item text-nowrap">
-                <a class="nav-link" href="/se_project/">Sign out</a>
+                <a class="nav-link" href="/virtual_college_administrator/">Sign out</a>
             </li>
         </ul>
     </nav>
@@ -106,7 +106,7 @@ if (mysqli_connect_error()) {
                                 <td><?php echo $row['roll_no'] ?></td>
                                 <td><?php echo $row['branch'] ?></td>
                                 <td><?php echo $row['address'] ?></td>
-                                <td><?php echo '<a class="btn btn-success" href="/se_project/edit.php?sid=' . $row["sid"] . '">Edit</button>' ?></td>
+                                <td><?php echo '<a class="btn btn-success" href="/virtual_college_administrator/edit.php?sid=' . $row["sid"] . '">Edit</button>' ?></td>
                             </tr>
                         </tbody>
                     <?php
@@ -114,7 +114,7 @@ if (mysqli_connect_error()) {
                     ?>
                 </table>
                 <div class="container" style="text-align: center;">
-                    <a class="btn btn-primary" href="/se_project/add-student.php">Add Student</a>
+                    <a class="btn btn-primary" href="/virtual_college_administrator/add-student.php">Add Student</a>
                 </div>
             </main>
         </div>

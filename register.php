@@ -36,7 +36,7 @@ if (mysqli_connect_error()) {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/se_project/">Home</a>
+                        <a class="nav-link" href="/virtual_college_administrator/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About us</a>
@@ -48,7 +48,7 @@ if (mysqli_connect_error()) {
                 <form class="form-inline my-2 my-lg-0">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="/se_project/login.php">Login Here</a><span class="sr-only">(current)</span>
+                            <a class="nav-link" href="/virtual_college_administrator/login.php">Login Here</a><span class="sr-only">(current)</span>
                         </li>
                     </ul>
                 </form>
@@ -113,7 +113,7 @@ if (mysqli_connect_error()) {
             <input name="password" type="password" class="form-control" placeholder="Password" required>
             <button class="btn btn-lg btn-primary btn-block" type="submit">Register</button>
             <hr>
-            <a class="alter-text" href="/se_project/login.php">Already registered?</a>
+            <a class="alter-text" href="/virtual_college_administrator/login.php">Already registered?</a>
             <p class="text-muted">&copy; 2020</p>
         </form>
 

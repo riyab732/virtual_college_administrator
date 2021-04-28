@@ -34,8 +34,8 @@
             <form class="form-inline my-2 my-lg-0">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <!-- <a class="nav-link" href="/se_project/login.php">Login</a> -->
-                  <a class="btn btn-success btn-sm" href="/se_project/login.php" role="button">Login</a>
+                  <!-- <a class="nav-link" href="/virtual_college_administrator/login.php">Login</a> -->
+                  <a class="btn btn-success btn-sm" href="/virtual_college_administrator/login.php" role="button">Login</a>
                 </li>
               </ul>
             </form>
@@ -105,7 +105,7 @@
           <h1 class="display-4">Not registered yet?</h1>
           <p class="lead">Sign up and get your queries resolved in seconds</p>
           <p>Millions of students are already avoiding long lines in the admin. When will you?</p>
-          <a class="btn btn-success btn-lg" href="/se_project/register.php" role="button">Sign Up</a>
+          <a class="btn btn-success btn-lg" href="/virtual_college_administrator/register.php" role="button">Sign Up</a>
         </div>
       </div> -->
     <!-- Optional JavaScript -->

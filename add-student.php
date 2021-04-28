@@ -47,7 +47,7 @@ if ($_POST) {
         }
     }
 
-    // header("Location: /se_project/admin-students.php");
+    // header("Location: /virtual_college_administrator/admin-students.php");
 }
 ?>
 
@@ -154,7 +154,7 @@ if ($_POST) {
     </div>
     <script>
         function admindash() {
-            window.location.replace("http://localhost/se_project/admin-students.php");
+            window.location.replace("http://localhost/virtual_college_administrator/admin-students.php");
         }
     </script>
 </body>

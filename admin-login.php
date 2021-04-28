@@ -60,7 +60,7 @@
 
     <script>
         function login(){
-            window.location.replace("http://localhost/se_project/dashboard.php");
+            window.location.replace("http://localhost/virtual_college_administrator/dashboard.php");
         }
     </script>
 </body>

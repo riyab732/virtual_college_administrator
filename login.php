@@ -37,7 +37,7 @@ session_start();
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/se_project/">Home</a>
+                        <a class="nav-link" href="/virtual_college_administrator/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">About us</a>
@@ -49,7 +49,7 @@ session_start();
                 <form class="form-inline my-2 my-lg-0">
                     <ul class="navbar-nav">
                         <li class="nav-item active">
-                            <a class="nav-link" href="/se_project/register.php">Register Here</a><span class="sr-only">(current)</span>
+                            <a class="nav-link" href="/virtual_college_administrator/register.php">Register Here</a><span class="sr-only">(current)</span>
                         </li>
                     </ul>
                 </form>
@@ -101,7 +101,7 @@ session_start();
         </form>
         <button onclick="login()" id="guestLogin" class="btn btn-success">SignIn as Guest</button>
         <br><br>
-        <a class="alter-text" href="/se_project/register.php">Not registered?</a>
+        <a class="alter-text" href="/virtual_college_administrator/register.php">Not registered?</a>
         <p class="text-muted">&copy; 2020</p>
 
 
@@ -115,7 +115,7 @@ session_start();
 
     <script>
         function login() {
-            window.location.replace("http://localhost/se_project/ask-questions.php");
+            window.location.replace("http://localhost/virtual_college_administrator/ask-questions.php");
         }
     </script>
 </body>
